@@ -1,0 +1,221 @@
+AI Classroom Manager — Master Project README
+
+🧠 AI Classroom Manager — Master Project README
+
+Built with ❤️ by Muhammad Shoaib
+
+Your complete AI-powered teaching assistant that works in three worlds:
+
+🖥️ Command-Line Interface (CLI)
+
+🌐 Flask Web App (Professional UI)
+
+⚡ Streamlit App (Lightweight UI)
+
+All three versions run on the same brain — your features.py file powered by Gemini / OpenRouter (OpenAI-compatible API).
+
+📌 1. Project Overview
+
+The AI Classroom Manager is an end-to-end educational automation tool designed for teachers in Pakistan.
+It helps generate lesson plans, timetables, worksheets, behaviour notes, parent messages, emergency lesson plans, and progress heatmaps automatically.
+
+This entire system is built using:
+
+Python 3.12+
+
+Gemini (OpenAI-compatible) API via OpenRouter
+
+Flask (web UI)
+
+Streamlit (alternative UI)
+
+CLI (terminal version)
+
+Jinja2 templates
+
+Custom AI prompts
+
+It is a complete, multi-interface AI project — perfect for demos, exams, portfolios, and real classroom use.
+
+📌 2. Features at a Glance
+✔ 1. Timetable Generator
+
+Creates a weekly timetable for multiple classes while avoiding teacher clashes.
+
+✔ 2. Lesson Plan (Bloom’s Taxonomy)
+
+Full structured lesson plan with objectives, warm-up, main activities, assessment & homework.
+
+✔ 3. Test / Worksheet Generator
+
+MCQs, short questions, descriptive, and topic-based worksheets.
+
+✔ 4. Parent Message Generator
+
+Professional SMS-style messages in any tone (polite, strict, friendly).
+
+✔ 5. Behaviour / Observation Notes
+
+Formal notes for discipline or academic performance.
+
+✔ 6. Emergency Lesson Plan (20-minute)
+
+Quick backup plan for surprise or emergency classes.
+
+✔ 7. Progress Heatmap
+
+Generates text-based heatmaps with percentage bars.
+
+📌 3. Project Structure
+ai-classroom-manager/
+│
+├── app.py                # Flask web app (main UI)
+├── main.py               # CLI version
+├── streamlit_app.py      # Streamlit UI version
+├── config.py             # API setup (OpenRouter / Gemini)
+├── features.py           # Core AI logic (brain of entire project)
+│
+├── templates/            # Flask HTML templates
+│   ├── base.html
+│   ├── index.html
+│
+├── static/               # CSS & UI assets (Flask)
+│   └── style.css
+│
+├── screenshots/          # Reference screenshots
+│   ├── cli world.png
+│   ├── flask world screen A.png
+│   ├── flask world screen B.png
+│   ├── streamlit screenshot.png
+│
+├── requirements.txt      # Full dependency list
+└── README.md             # (This file)
+
+📌 4. Installation Instructions
+🔹 1. Clone this repository
+git clone <your-repo-link>
+cd ai-classroom-manager
+
+🔹 2. Create & activate virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate          # Windows
+
+🔹 3. Install dependencies
+pip install -r requirements.txt
+
+🔹 4. Add your API key in .env
+
+Create a file .env inside project:
+
+GEMINI_API_KEY=your_openrouter_key_here
+AI_PROVIDER=openrouter
+
+📌 5. Running the Project
+▶ A. Run CLI (terminal version)
+python main.py
+
+
+You will see:
+
+=== AI Classroom Manager Agent (CLI) ===
+1. Generate Timetable
+2. Generate Lesson Plan
+3. Generate Test / Worksheet
+4. Parent Message
+5. Behaviour Note
+6. Emergency Lesson Plan
+7. Progress Heatmap
+0. Exit
+
+▶ B. Run Flask Web App (professional UI)
+python app.py
+
+
+Open browser:
+
+http://127.0.0.1:5000/
+
+▶ C. Run Streamlit App (alternative UI)
+streamlit run streamlit_app.py
+
+
+It opens at:
+
+http://localhost:8502/
+
+📌 6. Screenshots (All Three Worlds)
+🖥️ CLI Version
+
+![CLI](screenshots/cli world.png)
+
+🌐 Flask Web Interface
+
+![Flask A](screenshots/flask world screen A.png)
+![Flask B](screenshots/flask world screen B.png)
+
+⚡ Streamlit Interface
+
+![Streamlit](screenshots/streamlit screenshot.png)
+
+📌 7. Why This Project Is Special
+
+Single AI-powered backend used by three different UI systems.
+
+Complete teacher automation toolkit.
+
+Clean modular architecture.
+
+Perfect for:
+
+Assignments
+
+Academic projects
+
+AI portfolio
+
+School automation
+
+Teachers
+
+Your Agentic AI course
+
+It shows your mastery over:
+✔ Python
+✔ Flask
+✔ Streamlit
+✔ API integration
+✔ UI/UX
+✔ AI prompt engineering
+✔ Software architecture
+
+📌 8. Technologies Used
+
+Python 3.12+
+
+Flask
+
+Streamlit
+
+Jinja2
+
+OpenAI / OpenRouter compatible client
+
+Gemini Flash / Pro models
+
+dotenv
+
+HTML / CSS
+
+📌 9. Author
+
+Muhammad Shoaib
+AI Developer • Teacher • Innovator
+Karachi, Pakistan
+
+📌 10. License
+
+This project is open for learning and demonstration purposes.
+
+🎉 Thank you for exploring the AI Classroom Manager!
+
+If you like the project, feel free to ⭐ star the repository.
