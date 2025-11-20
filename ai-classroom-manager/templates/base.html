@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI Classroom Manager Agent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS (CDN) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">
+        AI Classroom Manager Agent
+      </span>
+      <span class="navbar-text text-light">
+        Teacher: Muhammad Shoaib
+      </span>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-12 col-md-3 col-xl-2 px-0 sidebar bg-light border-end">
+        {% block sidebar %}{% endblock %}
+      </div>
+      <div class="col py-4 main-content">
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer text-center py-3 text-muted">
+    <small>Powered by OpenRouter · Gemini / OpenAI · Built by Muhammad Shoaib</small>
+  </footer>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
