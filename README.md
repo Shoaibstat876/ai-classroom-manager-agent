@@ -23,6 +23,12 @@ The project is designed as a multi-interface AI application with:
 
 The main goal of this project was to practice AI application development, prompt-based automation, API integration, and multi-interface software design.
 
+## Learning Goals
+
+The goal of this project was to explore how AI can support teachers by automating repetitive classroom planning and communication tasks.
+
+This project combines prompt-based generation, Python application structure, multi-interface design, and API-based AI integration into one practical education-focused tool.
+
 ## Key Features
 
 ### Timetable Generator
